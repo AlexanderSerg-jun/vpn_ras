@@ -39,12 +39,27 @@
 
 ![image](https://github.com/AlexanderSerg-jun/vpn_ras/assets/85576634/5834bc5e-0220-4b7c-bf68-6bb0456a7941)
 
-#Убедимся что файлы скопировались на хост.И скопируем их в нужную дерикторию
+#Убедимся что файлы скопировались на хост.
 
 ![image](https://github.com/AlexanderSerg-jun/vpn_ras/assets/85576634/446eca61-cf69-427d-94e9-d44e64d86289)
+ # Создаем файл client.conf следующего содержания
+ ![image](https://github.com/AlexanderSerg-jun/vpn_ras/assets/85576634/00714f39-fa0c-4e9f-bafb-92e9852d3a24)
+#Добавим маршрут что бы хост могу общаться с виртаульной машиной используя команду sudo route add -net 192.168.50.0 netmask 255.255.255.0 dev vboxnet1
 
+![image](https://github.com/AlexanderSerg-jun/vpn_ras/assets/85576634/85466f56-d342-4d67-84d7-848268e62020)
 
+#Проверим видят ли друг друга ОС. Как видно из скрина все прошло успешно
+![image](https://github.com/AlexanderSerg-jun/vpn_ras/assets/85576634/96934ef6-3755-4a94-974b-e65c8827fc55)
+#Запустим vpnclient
+![image](https://github.com/AlexanderSerg-jun/vpn_ras/assets/85576634/ba8c2cf6-44f6-4cd4-88b2-82f7079d29f6)
+#Проверим 
+![image](https://github.com/AlexanderSerg-jun/vpn_ras/assets/85576634/1d1ff0c8-ab3d-4a96-ab72-5073d4377b40)
 
+#Как мы видим все успешно
+![image](https://github.com/AlexanderSerg-jun/vpn_ras/assets/85576634/d307d78a-6907-405c-b3ab-cfc7e32e060d)
+
+# Таблица маршрутизации на хосте 
+![image](https://github.com/AlexanderSerg-jun/vpn_ras/assets/85576634/361afbb2-645a-46cd-98ab-b26761d8e34d)
 
 
 
